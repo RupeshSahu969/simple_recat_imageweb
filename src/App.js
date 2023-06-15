@@ -1,6 +1,8 @@
 import './App.css';
 import React, {useState} from "react"
 
+
+
 const data = [
   {
     id:1,
@@ -45,6 +47,7 @@ function App() {
       })} 
 
      </div>
+     
 
       <div style={{padding: "20px",display:"grid" , gridTemplateColumns:"repet(1fr,1),"  , justifyContent:"center", gap:"10px"}}>
       <img src={imgs.img} alt="img" />
